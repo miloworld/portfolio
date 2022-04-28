@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    font-family: "Poppins", sans-serif;
+    color:rgba(75, 128, 99, 1);
+}
+
+header{
+    min-height: 10vh;
+    height: 100px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    justify-content:space-around;
+}
+
+
+
+header p, img{
+    display:flex;
+    align-items: center;
+    margin-right:20px;
+}
+
+
+
+nav ul li{
+    display:inline-block;
+    list-style: none;
+    padding: 20px;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+
+/*section sobre mi*/
+
+.sobreMi{
+    margin-top: 120px;
+    width:100%;    
+    height: 300px;
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+
+.foto{
+    width: 300px;
+    height: 300px;
+    float: left;
+    position: relative;
+    margin: 40px;
+}
+
+.info{
+    width: 467px;
+    height: 72px;
+    margin: 40px;
+    float: right;
+    position: relative;   
+}
+
+.info h1{
+    font-weight: 600;
+    font-size: 48px;
+    width: 467px;
+    height: 72px;
+    line-height: 72px;
+}
+
+.info p{
+    font-weight: 400;
+    font-size: 20px;
+    width: 467px;
+    height: 141px;
+    line-height: 30px;
+}
+
+
+.cono-pro{
+  margin: auto;
+  min-height: 40vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.conocimientos{
+  margin-top:120px;
+  width: 370px;
+height: 298px;
+  float: left;
+  position:relative;
+  margin-right: 100px;
+  margin-left:40px;
+
+}
+
+.conocimientos h1{
+width: 373px;
+height: 72px;
+font-weight: 600;
+font-size: 40px;
+line-height: 60px;
+  margin-left: 22px;
+
+}
+
+.conocimientos img{
+ display: inline-block;
+  margin: 20px;
+}
+
+.proyectos{
+  margin-top:120px;
+  float: right;
+  position:relative;
+}
+
+.proyectos h1{
+width: 373px;
+height: 72px;
+font-weight: 600;
+font-size: 40px;
+line-height: 60px;
+}
+
+/*    width: 467px;
+    height: 72px;
+    margin: 40px;
+    float: right;
+    position: relative*/
+
+/* Slideshow container */
+.slideshow-container {
+    width: 465px;
+    height: 250px;
+    position: relative;
+    margin: auto;
+  }
+
+
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+
+.mySlides img{
+  object-fit:cover;
+  height: 250px;
+}
+  
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    font-size: 15px;
+    padding: 8px 12px;
+    position: relative;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    background-color:rgba(160, 187, 172, 1);
+  }
+  
+  .text a{
+    background-color: rgba(160, 187, 172, 1);
+    color: #f5f5f5;
+    text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  }
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: rgba(160, 187, 172, 1);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: rgba(75, 128, 99, 1);
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+
+
+  .cuarta{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.contacto{
+margin-top:120px;
+  width: 370px;
+height: 298px;
+  float: left;
+  position:relative;
+  margin-right: 100px;
+  margin-left:40px;
+}
+
+.contacto h1{
+width: 366px;
+height: 216px;
+font-weight: 600;
+font-size: 40px;
+line-height: 60px;
+    margin-left: 22px;
+}
+
+form{
+width: 465px;
+height: 250px;
+float:right;
+  position:relative;
+  margin-top:120px;
+}
+
+.fcf-form-class input{
+border: none;
+background-color:rgba(75, 128, 99, 0.2);
+border-radius: 2px;
+width: 100%;
+height: 30px;
+margin-bottom: 20px;
+  padding: 5px;
+  color: #333;
+}
+
+
+#Message{
+  border: none;
+  background-color:rgba(75, 128, 99, 0.2);
+  border-radius: 2px;
+  width: 465px;
+height: 94px;
+  margin-bottom: 20px;
+  padding: 5px;
+  color: #333;
+  }
+
+
+  .btn{
+    width: 467px;
+    height: 44px;
+    background-color: #4B8063;
+    border-radius: 2px;
+    color:#f5f5f5;
+    border:none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    }
+    
+    .top-footer{
+      display:flex;
+      justify-content:center;
+      margin-top:120px;
+    }
+    
+    .top-footer ul li{
+       display:inline-block;
+        list-style: none;
+        padding: 20px;
+    }
+    .top-footer ul li a{
+      text-decoration:none; 
+      list-style:none;
+    }
+    
+    footer{
+      background-color: #4B8063;
+    }
+    
+    .footer{
+      display:flex;
+      justify-content:center;
+      margin-top:40px;
+      
+    }
+    
+    .footer p {
+      padding: 20px;
+        background-color: #4B8063;
+    }
+    
+    
+    .footer p a{
+       text-decoration:none; 
+      list-style:none;
+        background-color: #4B8063;
+      color:#f5f5f5;
+      
+    }
